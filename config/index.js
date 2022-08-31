@@ -13,7 +13,7 @@ export const config = {
     TEMPLATE_ID: "ZhpUILF6esEa9nyu_aQEvAuiUzeLfdvFwnmq-Y_FI4s",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    //CALLBACK_TEMPLATE_ID: "oyBqO59N9aXr50KyfqNMEuvvigoc",
+    CALLBACK_TEMPLATE_ID: "oyBqO59N9aXr50KyfqNMEuvvigoc",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -28,8 +28,8 @@ export const config = {
       {name: '老婆', id: "oyBqO59N9aXr50KyfqNMEuvvigoc"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-    //CALLBACK_USERS: [
-      //{name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+    CALLBACK_USERS: [
+      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
     ],
      
     /**
